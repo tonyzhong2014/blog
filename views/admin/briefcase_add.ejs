@@ -1,0 +1,144 @@
+<% include header.ejs %>
+
+<!-- END HEADER -->
+
+
+
+<% include left.ejs %>
+
+<!-- END SIDEBAR -->
+
+<!-- BEGIN PAGE -->
+
+<div class="page-content">
+
+    <!-- BEGIN PAGE CONTAINER-->
+
+    <div class="container-fluid">
+
+        <!-- BEGIN PAGE HEADER-->
+
+        <div class="row-fluid">
+
+            <div class="span12">
+
+
+                <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+
+                <h3 class="page-title">
+
+                    文章管理 <small>文章等管理的一系列操作</small>
+
+                </h3>
+
+                <ul class="breadcrumb">
+
+                    <li>
+
+                        <i class="icon-home"></i>
+
+                        <a href="/admin">首页</a>
+
+                        <i class="icon-angle-right"></i>
+
+                    </li>
+
+                    <li><a href="briefcase_list">文章管理</a>
+                        <i class="icon-angle-right"></i>
+                    </li>
+                    <li><a href="briefcase_add">发布新文章</a></li>
+
+
+
+                </ul>
+
+                <!-- END PAGE TITLE & BREADCRUMB-->
+
+            </div>
+
+        </div>
+
+        <!-- END PAGE HEADER-->
+        <!-- BEGIN PAGE CONTENT-->
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="portlet box blue tabbable">
+                    <div class="portlet-title">
+
+                        <div class="caption">
+
+                            <i class="icon-reorder"></i>
+
+                            <span class="hidden-480"></span>
+
+                        </div>
+
+                    </div>
+                    <div class="portlet-body form">
+                    <div class="tabbable portlet-tabs">
+                        <div class="tab-pane active">
+                            <div class="tab-content">
+                            <form class="form-horizontal" action="#">
+                                <div class="control-group">
+
+                                    <label class="control-label">选择文章类型</label>
+
+                                    <div class="controls">
+
+                                        <select class="medium m-wrap" tabindex="1">
+
+                                            <option value="Category 1">Category 1</option>
+
+                                            <option value="Category 2">Category 2</option>
+
+                                            <option value="Category 3">Category 5</option>
+
+                                            <option value="Category 4">Category 4</option>
+                                            <option value="new">添加新类型</option>
+
+                                        </select>
+
+                                    </div>
+
+                                </div>
+                                <div class="control-group">
+
+                                    <label class="control-label">文章名称</label>
+
+                                    <div class="controls">
+
+                                        <input type="text" placeholder="" class="m-wrap large" />
+
+                                        <span class="help-inline">Some hint here</span>
+
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                         </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- END PAGE HEADER-->
+
+
+    </div>
+
+    <!-- END PAGE CONTAINER-->
+
+</div>
+
+<!-- END PAGE -->
+
+
+
+
+
+<!-- BEGIN FOOTER -->
+
+<% include footer.ejs %>
